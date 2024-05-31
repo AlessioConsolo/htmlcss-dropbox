@@ -66,6 +66,14 @@ h5 {
   cursor: pointer;
 }
 
+.blue-b-horizontal {
+  background-color: rgba(0, 97, 255, 255);
+  padding: 10px 59px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 .margin-bot-75 {
   margin-bottom: 75px;
 }
@@ -84,6 +92,15 @@ h5 {
 
 .margin-left-5 {
   margin-left: 5px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.padding-t20-b35 {
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 
 /******** MAIN ********/
@@ -136,6 +153,28 @@ h5 {
   gap: 50px;
 }
 
+.main-row-horizontal {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid rgba(225, 225, 227, 255);
+}
+
+.main-row-horizonatal-header {
+  width: 1000px;
+  margin: 50px auto 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-col-horizontal-70 {
+  width: 70%;
+}
+
+.main-col-horizontal-30 {
+  width: 30%;
+}
+
 .main-col-1000 {
   border: 1px solid rgba(225, 225, 227, 255);
   flex: 1;
@@ -145,6 +184,15 @@ h5 {
   border-bottom: 1px solid rgba(225, 225, 227, 255);
   text-align: center;
   padding: 10px;
+}
+
+.upper-single-horizontal {
+  padding: 10px;
+  border-left: 1px solid rgba(225, 225, 227, 255);
+  border-top: 1px solid rgba(225, 225, 227, 255);
+  border-right: 1px solid rgba(225, 225, 227, 255);
+  width: 100%;
+  text-align: center;
 }
 
 /******** CARD BLOCK ********/
@@ -176,7 +224,8 @@ h5 {
 }
 
 .radio_text {
-  margin: 70px 0;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .card__text__price {
@@ -185,4 +234,8 @@ h5 {
 
 .card__text__month {
   color: gray;
+}
+
+.card__text__horizontal {
+  padding: 20px;
 }
