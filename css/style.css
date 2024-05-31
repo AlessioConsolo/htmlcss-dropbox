@@ -74,6 +74,12 @@ h5 {
   cursor: pointer;
 }
 
+.white_b {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .margin-bot-75 {
   margin-bottom: 75px;
 }
@@ -90,6 +96,10 @@ h5 {
   margin-bottom: 40px;
 }
 
+.margin-bot-25 {
+  margin-bottom: 25px;
+}
+
 .margin-left-5 {
   margin-left: 5px;
 }
@@ -103,6 +113,10 @@ h5 {
   padding-bottom: 35px;
 }
 
+.margin-t50-b20 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 /******** MAIN ********/
 
 .main-container {
@@ -155,7 +169,7 @@ h5 {
 
 .main-row-horizontal {
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 150px auto;
   display: flex;
   border: 1px solid rgba(225, 225, 227, 255);
 }
@@ -173,6 +187,26 @@ h5 {
 
 .main-col-horizontal-30 {
   width: 30%;
+}
+
+.main_row_parter_drop {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.main_col_partner_drop_60 {
+  width: 60%;
+}
+
+.main_col_partner_drop_60 img {
+  height: 100%;
+  width: 100%;
+}
+
+.main_col_partner_drop_40 {
+  width: 40%;
 }
 
 .main-col-1000 {
