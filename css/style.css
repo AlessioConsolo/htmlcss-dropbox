@@ -12,7 +12,21 @@ h1 {
   font-size: 60px;
   font-weight: 800;
 }
-/* HEADER */
+
+h2 {
+  font-size: 43px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+/******** HEADER ********/
 
 .header-container {
   width: 100%;
@@ -34,10 +48,14 @@ h1 {
   padding: 0 10px;
 }
 
-/* UTILITY CLASSES */
+/******** UTILITY CLASSES ********/
 
 .margin-r10p {
   margin-right: 10px;
+}
+
+.margin-r30p {
+  margin-right: 30px;
 }
 
 .blue-b {
@@ -45,6 +63,7 @@ h1 {
   padding: 8px 15px;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .margin-bot-75 {
@@ -55,13 +74,29 @@ h1 {
   margin-bottom: 105px;
 }
 
-/* MAIN */
+.padding-bot-15 {
+  padding-bottom: 15px;
+}
+
+.margin-bot-40 {
+  margin-bottom: 40px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+/******** MAIN ********/
 
 .main-container {
   background-color: rgba(180, 208, 231, 255);
 }
 
-.main-row {
+.white-main-container {
+  margin-top: 100px;
+}
+
+.main-row-1200 {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -86,4 +121,68 @@ h1 {
   width: 100%;
   position: relative;
   top: 25px;
+}
+
+.main-row-1000-up {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-row-1000 {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.main-col-1000 {
+  border: 1px solid rgba(225, 225, 227, 255);
+  flex: 1;
+}
+
+.upper-single {
+  border-bottom: 1px solid rgba(225, 225, 227, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+/******** CARD BLOCK ********/
+
+.card__text {
+  padding: 20px;
+}
+
+.card__text__block {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card__text__block:nth-child(3)::after {
+  content: "";
+  width: 50px;
+  display: block;
+  height: 1px;
+  background-color: #000;
+  margin-top: 40px;
+}
+
+.card__text__iconText {
+  display: flex;
+  align-items: baseline;
+  padding: 10px 0;
+}
+
+.radio_text {
+  margin: 70px 0;
+}
+
+.card__text__price {
+  font-weight: 600;
+}
+
+.card__text__month {
+  color: gray;
 }
