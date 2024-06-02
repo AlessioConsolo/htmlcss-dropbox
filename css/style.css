@@ -191,9 +191,21 @@ h5 {
 
 .main_row_parter_drop {
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 155px auto;
   display: flex;
   gap: 50px;
+}
+
+.main_row_operations_dropbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.main_col_operations_dropbox {
+  width: 30%;
 }
 
 .main_col_partner_drop_60 {
@@ -272,4 +284,9 @@ h5 {
 
 .card__text__horizontal {
   padding: 20px;
+}
+
+.operations_dropbox_cards_content,
+.main_col_operations_dropbox img {
+  width: 100%;
 }
