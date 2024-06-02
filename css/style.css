@@ -21,6 +21,10 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 h5 {
   font-size: 16px;
   padding-bottom: 15px;
@@ -120,9 +124,30 @@ h5 {
   padding-bottom: 35px;
 }
 
+.padding-y35 {
+  padding: 35px 0;
+}
+
+.padding-l300px {
+  padding-left: 300px;
+}
+
+.margin-b170px {
+  margin-bottom: 170px;
+}
+
 .margin-t50-b20 {
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.margin-t100-b30 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.margin-x5 {
+  margin: 0 5px;
 }
 
 .width-75 {
@@ -141,8 +166,12 @@ h5 {
   color: rgba(97, 11, 47, 255);
 }
 
-.height200 {
-  height: 200px;
+.color-gray {
+  color: #a8b0bd;
+}
+
+.height270 {
+  height: 270px;
 }
 
 .main-col-w30-b {
@@ -150,6 +179,23 @@ h5 {
   border: none;
   cursor: pointer;
 }
+
+.hr-1000 {
+  width: 1000px;
+}
+
+.margin-t100-b40 {
+  margin: 100px 0 40px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 15px;
+}
+
 /******** MAIN ********/
 
 .main-container {
@@ -178,7 +224,7 @@ h5 {
 
 .main-col-w70 {
   width: 70%;
-  padding-right: 345px;
+  padding-right: 190px;
   line-height: 1.3;
 }
 
@@ -245,6 +291,10 @@ h5 {
   width: 1000px;
   margin: 0 auto 150px auto;
   gap: 50px;
+}
+
+.main_col_operations_dropbox_end {
+  padding: 65px 207px 0px 0px;
 }
 
 .main_row_partners_1200 {
@@ -316,6 +366,37 @@ h5 {
 .middle_content {
   padding: 50px;
 }
+
+/******** FOOTER ********/
+
+footer {
+  background-color: black;
+}
+
+.footer-container {
+  width: 1200px;
+  color: white;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-bar span:nth-child(1):after {
+  content: "";
+  width: 120px;
+  display: block;
+  height: 1px;
+  background-color: gray;
+}
+
+.footer-hr {
+  display: block;
+  margin: 80px 0px 40px 0;
+}
+
 /******** CARD BLOCK ********/
 
 .card__text {
