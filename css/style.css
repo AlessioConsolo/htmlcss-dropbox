@@ -53,6 +53,10 @@ h5 {
   align-items: flex-start;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .blue-b {
   background-color: rgba(0, 97, 255, 255);
   padding: 8px 15px;
@@ -129,6 +133,23 @@ h5 {
   background-color: rgba(245, 245, 245, 255);
 }
 
+.gap-50 {
+  gap: 50px;
+}
+
+.color-darkred {
+  color: rgba(97, 11, 47, 255);
+}
+
+.height200 {
+  height: 200px;
+}
+
+.main-col-w30-b {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+}
 /******** MAIN ********/
 
 .main-container {
@@ -155,6 +176,17 @@ h5 {
   padding-top: 30px;
 }
 
+.main-col-w70 {
+  width: 70%;
+  padding-right: 345px;
+  line-height: 1.3;
+}
+
+.main-col-w30 {
+  width: 30%;
+  padding: 0px 0 0 60px;
+}
+
 .main-col-p {
   width: 70%;
 }
@@ -176,7 +208,6 @@ h5 {
   width: 1000px;
   margin: 0 auto;
   display: flex;
-  gap: 50px;
 }
 
 .main-row-horizontal {
